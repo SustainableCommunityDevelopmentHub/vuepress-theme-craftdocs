@@ -6,7 +6,7 @@ import "../styles/index.styl";
 export default {
   title: "BrowserShot",
   decorators: [withKnobs],
-  component: BrowserShot
+  component: BrowserShot,
 };
 
 export const Default = () => ({
@@ -16,9 +16,9 @@ export const Default = () => ({
     link: { default: boolean("Use Anchor Link?", true) },
     cleanUrl: { default: boolean("Clean URL?", true) },
     caption: {
-      default: text("Caption", "This is an optional caption for the image.")
+      default: text("Caption", "This is an optional caption for the image."),
     },
-    maxHeight: { default: number("Max Height", 0) }
+    maxHeight: { default: number("Max Height", 0) },
   },
   methods: {},
   template: `
@@ -27,5 +27,5 @@ export const Default = () => ({
         <img src="https://placekitten.com/900/500" alt="adorable kitten image" />
       </BrowserShot>
     </div>
-  `
+  `,
 });

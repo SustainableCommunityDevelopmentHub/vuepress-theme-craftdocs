@@ -16,17 +16,19 @@
     "@storybook/vue": "^5.3.18",
     "babel-loader": "^8.1.0",
     "babel-preset-vue": "^2.0.2",
+    "markdown-it": "^10.0.0",
     "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
     "sass-loader": "^8.0.2",
-    "stylus-loader": "^3.0.2",
     "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.11",
     "vue-loader": "^15.9.1",
     "vue-stylus-resources-loader": "0.0.1",
     "vue-template-compiler": "^2.6.11",
-    "vue": "^2.6.11",
+    "vuepress": "^1.4.1",
     "vuepress-plugin-container": "^2.0.2",
-    "vuepress-plugin-smooth-scroll": "^0.0.3",
-    "vuex": "^3.1.0"
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
   },
   "devDependencies": {},
   "scripts": {
